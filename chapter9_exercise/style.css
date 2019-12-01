@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+main {
+	width: 960px;
+	margin: 0 auto;
+}
+.box {
+	margin: 50px auto;
+	width: 300px;
+	border: 0.5px solid grey;
+	/*position: relative;*/
+	float: left;
+}
+.box:nth-child(2) {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.step {
+	background-color: orange;
+	color: white;
+	/*width: 45px;*/
+	/*height: 60px;*/
+	padding: 3px;
+	float: left;
+	/*position: absolute;*/
+}
+.step-contents {
+	width: 280px;
+	/*background-color: green;*/
+	padding-top: 10px;
+	margin: 0 auto;
+}
+.image1 {
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+	height: 150px;
+}
+.image2 {
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+	height: 150px;
+}
+.image3 {
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+	height: 150px;
+}
+.title {
+	font-size: 18px;
+	padding: 10px 0;
+}
+.paragraph {
+	padding-bottom: 10px;
+}
